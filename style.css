@@ -1,0 +1,98 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+ol, ul, li {
+    list-style: none;
+}
+
+.cabecalho{
+    background-color: rgb(0, 0, 0);
+    display: flex;
+    align-items: center;
+    padding-bottom: 50px;
+    
+    
+    
+}
+
+.links{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(0, 0, 0);
+    width: 45vw;
+    color: aliceblue;
+}
+.logo{
+padding-top: 25px;
+display: flex;
+width: 30vw;
+
+
+}
+body{
+    background-color: rgb(133, 47, 47);
+    flex-direction: column;
+    display: flex;
+
+}
+.texto{
+    color: aliceblue;
+    text-align: center;
+    width: 500px;
+    padding-left: 100px;
+    height: 10vh;
+}
+.texto h1{
+    font-size:40px;
+}
+
+.texto h2{
+    font-size: 25px;
+}
+.burro{
+    position: absolute;
+    display: flex;
+    top: 72%;
+    left: 20%;
+    height: 10vh;
+    
+
+}
+h3{
+    color: rgb(0, 0, 0);
+    font-size: 15px;
+}
+.triangulo{
+    width: 0;
+    height: 0;
+    border-top: 25px solid transparent;
+    border-bottom: 25px solid transparent;
+    border-left: 25px solid #4C4B63;
+  
+}
+main{
+    
+
+}
+.triangulo-principal{
+    position: absolute;
+        width: 10vw;
+        border-left: 50px solid transparent;
+        border-right: 50px solid transparent;
+        border-top: 100vh solid rgb(255, 255, 255);
+        transform: rotate(345deg);
+        z-index: -999;
+      
+        
+}
+.cavaleiro{
+    height: 500px;
+    position: absolute;
+    left: 50%;
+}
