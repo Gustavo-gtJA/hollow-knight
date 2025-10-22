@@ -16,6 +16,7 @@ ol, ul, li {
     display: flex;
     align-items: center;
     padding-bottom: 50px;
+    font-size: 24px;
     
     
     
@@ -36,63 +37,133 @@ width: 30vw;
 
 }
 body{
-    background-color: rgb(133, 47, 47);
+    background-color: rgb(0, 0, 0);
     flex-direction: column;
     display: flex;
 
 }
 .texto{
     color: aliceblue;
-    text-align: center;
-    width: 500px;
-    padding-left: 100px;
-    height: 10vh;
+    background-color: aqua;
+    display: flex;
+    text-align:start;
+    width: 100vw;
+    height: 30vh;
+    
+}
+.agrupar{
+    text-align: center ;
+}
+.redimensionar{
+    align-items: end;
+    display: flex;
+    width: 25vw;
+    flex-direction: column;
+    justify-content: center;
+
 }
 .texto h1{
-    font-size:40px;
+    font-size:60px;
 }
 
 .texto h2{
-    font-size: 25px;
-}
-.burro{
-    position: absolute;
-    display: flex;
-    top: 72%;
-    left: 20%;
-    height: 10vh;
+    font-size: 36px;
     
+}
+.tudo{
+   
+   background-color: aquamarine; 
+   opacity: 0.5;
+    height: 40vh;
+    width: 100vw;
+    display: flex;
+    align-items:center;
+    justify-content: space-around;
+
 
 }
-h3{
-    color: rgb(0, 0, 0);
-    font-size: 15px;
+.burro{
+ text-align: end;   
+ display: flex;
+    
+    
+    
+}
+.ajuste{
+    display: flex;
+    padding-top: 24px;
+    align-items: start;
+    background-color: rgb(132, 0, 255);
+    width: 25vw;
+    height: 100%;
+    width:max-content;
+    padding-top: 70px;
+
+   
+}
+.span{
+    background-color: aqua;
+}
+.span-h3{
+    background-color: #000000;
 }
 .triangulo{
     width: 0;
     height: 0;
-    border-top: 25px solid transparent;
-    border-bottom: 25px solid transparent;
-    border-left: 25px solid #4C4B63;
+    border-top: 8px solid transparent;
+    border-bottom: 8px solid transparent;
+    border-left: 12px solid #000000;
+    
   
 }
+h3{
+    color: rgb(0, 0, 0);
+    font-size: 24px;
+    display: flex;
+    align-items: center;
+    
+    
+}
+h3 div{
+
+}
+
 main{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    
+    
     
 
 }
 .triangulo-principal{
     position: absolute;
-        width: 10vw;
-        border-left: 50px solid transparent;
-        border-right: 50px solid transparent;
-        border-top: 100vh solid rgb(255, 255, 255);
-        transform: rotate(345deg);
         z-index: -999;
-      
+        left: 0;
+        top: 0%;
+        transform: translate(0, 30%);
+        height: 1070px;
+        width: 100vw;
+
         
 }
-.cavaleiro{
-    height: 500px;
+.numero{
     position: absolute;
-    left: 50%;
+    transform: translate(78%, 100%);
+    top: 50%;
+
+
+}
+.cavaleiro{
+    height: 664px;
+    position: absolute;
+     transform: translate(0, 20%);
+     top: 18%;
+     left: 60%;
+}
+
+
+.texto-secundario{
+    background-color: aqua;
 }
