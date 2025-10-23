@@ -40,11 +40,11 @@ body{
     background-color: rgb(0, 0, 0);
     flex-direction: column;
     display: flex;
+    width: 100vw;
 
 }
 .texto{
     color: aliceblue;
-    background-color: aqua;
     display: flex;
     text-align:start;
     width: 100vw;
@@ -72,13 +72,12 @@ body{
 }
 .tudo{
    
-   background-color: aquamarine; 
-   opacity: 0.5;
     height: 40vh;
     width: 100vw;
     display: flex;
-    align-items:center;
-    justify-content: space-around;
+    align-items: end;
+    justify-content:space-between;
+    
 
 
 }
@@ -92,21 +91,28 @@ body{
 .ajuste{
     display: flex;
     padding-top: 24px;
-    align-items: start;
-    background-color: rgb(132, 0, 255);
+    align-items: end;
     width: 25vw;
+    justify-content: end;
     height: 100%;
-    width:max-content;
     padding-top: 70px;
+
 
    
 }
+.ajuste h3{
+padding-bottom: 85px;
+}
 .span{
-    background-color: aqua;
+    height: auto;
+    width: 400px;
+    padding-right: 10%;
+    color:aliceblue
 }
-.span-h3{
-    background-color: #000000;
-}
+
+
+
+
 .triangulo{
     width: 0;
     height: 0;
@@ -150,8 +156,10 @@ main{
 }
 .numero{
     position: absolute;
-    transform: translate(78%, 100%);
-    top: 50%;
+    transform: translate(-80%, 350%);
+    top: 30%;
+    height: 441.1;
+    width: 303;
 
 
 }
@@ -161,6 +169,7 @@ main{
      transform: translate(0, 20%);
      top: 18%;
      left: 60%;
+     z-index: -998;
 }
 
 
