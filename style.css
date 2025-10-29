@@ -189,4 +189,72 @@ main{
         display: flex;
         flex-direction: column;
     }
+    .logo{
+        height: 200px;
+        width: 600px;
+       
+    }
+    .links{
+        display: flex;
+        justify-content:center;
+        font-size: 26px;
+    }
+    .link{
+        padding-left: 30px;
+        padding-right: 30px;
+    }
+  
+    .agrupar{
+        width: 220px;
+        padding-left: 30px;
+
+    }
+    .agrupar h2 {
+        font-size: 25px;
+    }
+    .ajuste{
+        align-items: flex-start;
+        flex-grow: 1;
+        padding-left: 64px;
+        padding-top: 0;
+        z-index: 3;
+        justify-content: left;
+    }
+    .ajuste h3{
+        font-size: 22px
+        
+        
+    }
+   
+    .numero{
+        height: 15vh;
+        transform: translate(10%, 0%);
+        top: 80%;
+        left: 00%;
+    }
+    .cavaleiro{
+                transform: translate(60%, 40%);
+                height: 50vh;
+                top: 10%;
+                left: 0%;
+                z-index: 2;
+
+    }
+    .triangulo-principal{
+        height: 77vh;
+        z-index: 1;
+    }
+    .span{
+        z-index: 3;
+        padding: 0;
+        text-align: left;   
+        height: 30vh;
+        width: 15vw;
+        display: flex;
+        flex-direction: column;
+     }
+     .span span{
+        padding-bottom: 25px;
+     }
+
 }
