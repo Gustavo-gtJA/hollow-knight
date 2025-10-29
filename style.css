@@ -75,7 +75,7 @@ body{
     height: 40vh;
     width: 100vw;
     display: flex;
-    align-items: end;
+    align-items: center;
     justify-content:space-between;
     
 
@@ -91,7 +91,7 @@ body{
 .ajuste{
     display: flex;
     padding-top: 24px;
-    align-items: end;
+    align-items:flex-start;
     width: 25vw;
     justify-content: end;
     height: 100%;
@@ -105,9 +105,11 @@ padding-bottom: 85px;
 }
 .span{
     height: auto;
-    width: 400px;
+    width: 550px;
     padding-right: 10%;
-    color:aliceblue
+    font-size: larger;
+    color:aliceblue;
+    
 }
 
 
@@ -154,10 +156,12 @@ main{
 
         
 }
+ 
 .numero{
     position: absolute;
     transform: translate(-80%, 350%);
-    top: 30%;
+    top: 20%;
+    left: 38%;
     height: 441.1;
     width: 303;
 
@@ -175,4 +179,14 @@ main{
 
 .texto-secundario{
     background-color: aqua;
+}
+
+
+
+
+@media (max-width: 768px) {
+    .cabecalho{
+        display: flex;
+        flex-direction: column;
+    }
 }
