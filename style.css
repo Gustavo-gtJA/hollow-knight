@@ -327,4 +327,27 @@ main{
         height: 33vh;
     }
 }
+.ajuste::after {
+    content: "";
+    position: absolute;
+    height: 4px;
+    z-index:0;
+    background: #000000;
+    width: 0;
+    transition: width 0.9s ease;
+    transform: translate(0, 90%);
+}
+
+
+
+.ajuste::after {
+    bottom: 32%;
+    right: 70%;
+}
+
+
+.ajuste:hover::after,
+.ajuste:active::after {
+    width: 20%;
+}
         
