@@ -91,14 +91,22 @@ body{
 .ajuste{
     display: flex;
     padding-top: 24px;
-    align-items:flex-start;
+    align-items:center;
     width: 25vw;
     justify-content: end;
     height: 100%;
     padding-top: 70px;
+    height: 10vh;
 
 
    
+}
+.ajuste h3{
+    position: absolute;
+    transform: translate(0, 0%);
+    top: 62%;
+
+
 }
 .ajuste h3{
 padding-bottom: 85px;
