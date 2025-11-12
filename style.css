@@ -319,5 +319,8 @@ main{
         text-align: right;
         font-weight: bold;
     }
+    .cavaleiro{
+        left: -40%;
+    }
 }
         
