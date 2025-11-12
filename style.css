@@ -270,9 +270,54 @@ main{
 
 @media (max-width:480px){
     .cabecalho{
+        display: flex;    }
+    .logo{
+        height: 15vh;
+        width: auto;
+        
+    }
+    header{
+        padding: 0;
+    }
+    .cabecalho{
+        padding: 0;
+    }
+    .link{
+        font-size: 20px;
+    }
+    .agrupar{
         display: flex;
-        flex-direction: row-reverse;
-        background-color: aqua;
+        flex-direction: column;
+        text-align: left;
+      
+    }
+    .agrupar h1{
+        font-size: 40px;
+    }
+    .agrupar h2{
+        font-size: 20px;
+       
+    }
+    .ajuste h3{
+        left: 15%;
+        top: 55%;
+        width: 50px;
+    }
+    
+    .span{
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+        align-items: center;
+        justify-content: center;
+        width: 30vw;
+    
+    }
+    .span span{
+        padding: 0;
+        font-size: 12px;
+        text-align: right;
+        font-weight: bold;
     }
 }
         
