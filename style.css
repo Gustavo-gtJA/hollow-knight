@@ -359,6 +359,7 @@ main{
     width: 0;
     transition: width 0.9s ease;
     transform: translate(0, 90%);
+    opacity: 0;
 }
 }
 .ajuste::after {
@@ -370,7 +371,7 @@ main{
     width: 0;
     transition: width 0.9s ease;
     transform: translate(0, 90%);
-    opacity: 0;
+    
 }
 
 
