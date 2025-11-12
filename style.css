@@ -113,11 +113,11 @@ padding-bottom: 85px;
 }
 .span{
     height: auto;
-    width: 550px;
-    padding-right: 10%;
+    width: 20vw;
     font-size: larger;
     color:aliceblue;
-    
+    display: flex;
+    flex-direction: column;    
 }
 
 
