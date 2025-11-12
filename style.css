@@ -103,14 +103,13 @@ body{
 }
 .ajuste h3{
     position: absolute;
-    transform: translate(0, 0%);
-    top: 62%;
+    transform: translate(25%, 0%);
+    top: 66%;
+
 
 
 }
-.ajuste h3{
-padding-bottom: 85px;
-}
+
 .span{
     height: auto;
     width: 20vw;
@@ -230,7 +229,8 @@ main{
         justify-content: left;
     }
     .ajuste h3{
-        font-size: 22px
+        font-size: 22px;
+        top: 60%;
         
         
     }
@@ -269,5 +269,10 @@ main{
 }
 
 @media (max-width:480px){
-
+    .cabecalho{
+        display: flex;
+        flex-direction: row-reverse;
+        background-color: aqua;
+    }
 }
+        
