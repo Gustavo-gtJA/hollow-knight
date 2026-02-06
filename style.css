@@ -173,6 +173,8 @@ main{
         left: 15%;
         top: 15%;
         max-height: 85vh;
+        min-height: 60vh;
+        max-width: 80vw;
         
 
         
@@ -181,8 +183,8 @@ main{
 .numero{
     position: absolute;
     transform: translate(0, 0);
-    bottom: 20px;
-    left: 35%;
+    bottom: 15vh;
+    left: 25%;
     height: 150px;
     width: 303;
 
@@ -257,7 +259,7 @@ main{
 
     .ajuste h3{
         font-size: 22px;
-        top: 50%;
+        top: 60%;
         left: 20%;
         
         
